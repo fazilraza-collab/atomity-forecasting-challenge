@@ -1,4 +1,11 @@
-*.egg-info/
+# Ignore huge folders
 .venv/
+challenge_data/
+
+# Ignore the huge dataset file (114MB - GitHub will block this!)
+data-v1.tar.gz
+
+# Ignore junk files
 .pytest_cache/
 __pycache__/
+*.pyc
